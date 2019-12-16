@@ -1,0 +1,39 @@
+.ui.container {
+  margin-top: 125px;
+}
+.ui.segment {
+  box-shadow: none;
+  border: none;
+}
+.column {
+  height: 800px;
+  font-size: 36px;
+  font-family: "Nanum Brush Script", cursive;
+  overflow: auto;
+  border: none;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
+  box-sizing: border-box;
+  resize: none;
+}
+.column p:hover {
+  color: #ff6f00;
+}
+.column.result {
+  display: flex !important;
+  color: #333;
+  text-align: center;
+  font-size: 100px;
+  font-weight: bold;
+
+  justify-content: center;
+  align-items: center;
+}
+.ui.vertical {
+  display: none;
+}
+.segment .header {
+  width: 50%;
+  margin: 20px 0 !important;
+  float: left;
+  text-align: center;
+}

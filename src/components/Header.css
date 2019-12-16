@@ -1,0 +1,30 @@
+.gnb {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+}
+.gnb * {
+  vertical-align: middle;
+}
+#logo {
+  background: none;
+  border: 0;
+}
+#logo > img {
+  width: 200px;
+}
+#menu-list {
+  display: inline-block;
+  margin: 0;
+  height: 80px;
+}
+.menu-item {
+  display: inline-block;
+  width: 250px;
+  font-size: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 80px;
+}
